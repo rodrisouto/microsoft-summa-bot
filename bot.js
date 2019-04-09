@@ -19,7 +19,6 @@ class SummaBot {
 
             var wikiText = await this.getTextFromWikipedia(`${ turnContext.activity.text }`);
             await this.sendSummaText(turnContext, wikiText);
-
         } else {
             await turnContext.sendActivity(`[${ turnContext.activity.type } event detected]`);
         }

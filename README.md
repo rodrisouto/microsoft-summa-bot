@@ -9,6 +9,11 @@ This bot has been created using [Microsoft Bot Framework][1], !!!! what does it 
     # determine node version
     node --version
     ```
+    
+- Clone [textrank](https://github.com/summanlp/textrank) and follow the installation instructions.
+
+- Clone [wtf_wikipedia](https://github.com/spencermountain/wtf_wikipedia) and follow the installation instructions.
+
 
 # To try this sample
 - Clone the repository

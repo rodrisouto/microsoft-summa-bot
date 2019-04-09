@@ -85,6 +85,7 @@ typings/
 
 # Idea
 .idea/
+.idea/workspace.xml
 
 # Node Modules
 node_modules/
