@@ -50,8 +50,3 @@ class SummaBot {
 }
 
 module.exports.SummaBot = SummaBot;
-
-/*
-var doc = wtf.fetch('Toronto');
-console.log(doc.text());
-*/
