@@ -16,12 +16,16 @@ class SummaBot {
         // See https://aka.ms/about-bot-activity-message to learn more about the message and other activity types.
         if (turnContext.activity.type === ActivityTypes.Message) {
 
+            /*
             var wikiText = await (async () => {
                 var doc = await wtf.fetch('Toronto');
                 return await doc.text();
             })();
+            */
+            var wikiText = await this.getTextFromWikipedia(`${ turnContext.activity.text }`);
 
-            // !!!!
+
+                // !!!!
             /*
             console.log(wikiText);
             await turnContext.sendActivity(`${ wikiText }`);
@@ -43,6 +47,14 @@ class SummaBot {
         } else {
             await turnContext.sendActivity(`[${ turnContext.activity.type } event detected]`);
         }
+    }
+
+    async getTextFromWikipedia(title) {
+
+        return await (async () => {
+            var doc = await wtf.fetch(`${ title }`);
+            return await doc.text();
+        })();
     }
 }
 
