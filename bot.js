@@ -5,7 +5,7 @@ const { ActivityTypes } = require('botbuilder');
 const exec = require('child_process').execSync;
 const fs = require('fs');
 
-class MyBot {
+class SummaBot {
     /**
      *
      * @param {TurnContext} on turn context object.
@@ -14,7 +14,7 @@ class MyBot {
         // See https://aka.ms/about-bot-activity-message to learn more about the message and other activity types.
         if (turnContext.activity.type === ActivityTypes.Message) {
             fs.writeFileSync("temp", `${turnContext.activity.text}`, () => {});
-            let output = exec(`textrank -t temp`, (err, stdout, stderr) => {
+            let output = exec(`textrank -t temp -w 200`, (err, stdout, stderr) => {
                 if (err) {
                     console.log("Couldn't execute command.");
                     console.log(`stdout: ${ stdout }`);
@@ -29,4 +29,4 @@ class MyBot {
     }
 }
 
-module.exports.MyBot = MyBot;
+module.exports.SummaBot = SummaBot;

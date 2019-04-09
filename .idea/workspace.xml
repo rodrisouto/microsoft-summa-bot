@@ -2,11 +2,184 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41a4619-910a-4a49-9865-982cc01bc652" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.index.js.swp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/browser-polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/browser-ponyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/cross-fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/cross-fetch.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/node-polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/node-ponyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/lib/index.es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/polyfill/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/api/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/bin/wtf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/builds/wtf_wikipedia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/builds/wtf_wikipedia.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/01-document/Document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/01-document/_sectionMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/01-document/categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/01-document/disambig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/01-document/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/01-document/preProcess/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/01-document/preProcess/kill_xml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/01-document/redirects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/01-document/toHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/01-document/toJson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/01-document/toLatex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/01-document/toMarkdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/Section.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/heading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/reference/Reference.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/reference/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/reference/toHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/reference/toJson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/reference/toLatex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/reference/toMarkdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/start-to-end/election.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/start-to-end/gallery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/start-to-end/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/start-to-end/math.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/start-to-end/mlb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/start-to-end/mma.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/start-to-end/nba.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/table/Table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/table/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/table/parse/_findRows.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/table/parse/_spans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/table/parse/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/table/toHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/table/toJson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/table/toLatex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/table/toMarkdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/toHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/toJson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/toLatex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/02-section/toMarkdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/03-paragraph/Paragraph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/03-paragraph/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/03-paragraph/list/List.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/03-paragraph/list/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/03-paragraph/list/toHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/03-paragraph/list/toJson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/03-paragraph/list/toLatex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/03-paragraph/list/toMarkdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/03-paragraph/toHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/03-paragraph/toJson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/03-paragraph/toLatex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/03-paragraph/toMarkdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/04-sentence/Sentence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/04-sentence/formatting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/04-sentence/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/04-sentence/interwiki.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/04-sentence/links.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/04-sentence/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/04-sentence/toHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/04-sentence/toJson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/04-sentence/toLatex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/04-sentence/toMarkdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_data/abbreviations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_data/flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_data/i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_data/languages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_data/site_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_fetch/_params.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_fetch/_request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_fetch/_url.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_fetch/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_fetch/fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_fetch/random.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_lib/aliases.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_lib/encode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_lib/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_lib/pad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_lib/recursive_match.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_lib/setDefaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_lib/smartReplace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/_version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/image/Image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/image/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/image/toHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/image/toJson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/image/toLatex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/image/toMarkdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/infobox/Infobox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/infobox/_skip-keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/infobox/toHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/infobox/toJson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/infobox/toLatex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/infobox/toMarkdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/_getTemplates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/_ignore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/_infobox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/_parsers/01-pipe-splitter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/_parsers/02-keyMaker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/_parsers/03-cleanup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/_parsers/_fmtName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/_parsers/_getName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/_parsers/_strip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/_parsers/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/dates/_delta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/dates/_format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/dates/_months.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/dates/_timeSince.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/dates/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/dates/misc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/dates/parsers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/formatting/format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/formatting/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/formatting/lists.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/formatting/misc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/formatting/punctuation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/geo/coor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/geo/dms-format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/geo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/identities/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/language/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/language/languages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/language/pronounce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/language/wiktionary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/math/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/misc/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/money/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/politics/elections.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/politics/flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/politics/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/politics/population.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/science/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/science/misc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/science/weather.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/sports/brackets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/sports/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/sports/soccer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/wikipedia/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/wikipedia/links.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/wikipedia/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wtf_wikipedia/src/templates/wikipedia/table-cell.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summabot.bot" beforeDir="false" afterPath="$PROJECT_DIR$/summabot.bot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,23 +212,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="172" />
+          <entry key="bot" value="8" />
+          <entry key="js" value="191" />
+          <entry key="json" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="172" />
+          <entry key="JSON" value="29" />
+          <entry key="JavaScript" value="191" />
+          <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="343">
+              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -66,20 +243,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="330">
+              <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/wtf_wikipedia/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -89,8 +257,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>wikiText</find>
-      <find>echobot</find>
       <find>wikite</find>
+      <find>SummaBot</find>
+      <find>echo</find>
+      <find>echobot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,8 +302,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,13 +316,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../p13n/h-smart" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -196,23 +366,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3647000" />
+    <option name="totallyTimeSpent" value="4803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -220,16 +386,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,8 +418,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="343">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -258,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="330">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

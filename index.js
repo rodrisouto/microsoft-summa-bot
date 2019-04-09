@@ -13,7 +13,7 @@ const { BotFrameworkAdapter } = require('botbuilder');
 const { BotConfiguration } = require('botframework-config');
 
 // This bot's main dialog.
-const { MyBot } = require('./bot');
+const { SummaBot } = require('./bot');
 
 // Read botFilePath and botFileSecret from .env file
 // Note: Ensure you have a .env file and include botFilePath and botFileSecret.
@@ -33,7 +33,7 @@ const server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, () => {
     console.log(`\n${ server.name } listening to ${ server.url }`);
     console.log(`\nGet Bot Framework Emulator: https://aka.ms/botframework-emulator`);
-    console.log(`\nTo talk to your bot, open echobot.bot file in the Emulator`);
+    console.log(`\nTo talk to your bot, open summa.bot file in the Emulator`);
 });
 
 // .bot file path
@@ -70,7 +70,7 @@ adapter.onTurnError = async (context, error) => {
 };
 
 // Create the main dialog.
-const myBot = new MyBot();
+const myBot = new SummaBot();
 
 // Listen for incoming requests.
 server.post('/api/messages', (req, res) => {
