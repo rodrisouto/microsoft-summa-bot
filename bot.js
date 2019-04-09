@@ -4,6 +4,8 @@
 const { ActivityTypes } = require('botbuilder');
 const exec = require('child_process').execSync;
 const fs = require('fs');
+const wtf = require('wtf_wikipedia');
+
 
 class SummaBot {
     /**
@@ -13,7 +15,20 @@ class SummaBot {
     async onTurn(turnContext) {
         // See https://aka.ms/about-bot-activity-message to learn more about the message and other activity types.
         if (turnContext.activity.type === ActivityTypes.Message) {
-            fs.writeFileSync("temp", `${turnContext.activity.text}`, () => {});
+
+            var wikiText = await (async () => {
+                var doc = await wtf.fetch('Toronto');
+                return await doc.text();
+            })();
+
+            // !!!!
+            /*
+            console.log(wikiText);
+            await turnContext.sendActivity(`${ wikiText }`);
+            */
+
+            fs.writeFileSync(`temp`, `${ wikiText }`, () => {
+            });
             let output = exec(`textrank -t temp -w 200`, (err, stdout, stderr) => {
                 if (err) {
                     console.log("Couldn't execute command.");
@@ -22,7 +37,9 @@ class SummaBot {
                 }
             });
             await turnContext.sendActivity(`${ output }`);
-            fs.unlinkSync("temp")
+            fs.unlinkSync("temp");
+
+
         } else {
             await turnContext.sendActivity(`[${ turnContext.activity.type } event detected]`);
         }
@@ -30,3 +47,8 @@ class SummaBot {
 }
 
 module.exports.SummaBot = SummaBot;
+
+/*
+var doc = wtf.fetch('Toronto');
+console.log(doc.text());
+*/
